@@ -23,3 +23,15 @@ if (cold) {
 } else {
   console.log("Short sleeves are fine.");
 }
+
+const temperature = 12;
+
+if (temperature < 0) {
+  console.log("make sure you pick out a scraft");
+} else if (temperature < 15){
+  console.log("short sleeves wont cut it!");
+} else {
+  console.log("short sleeves are fine")
+}
+
+console.log("now you're ready to go outside")

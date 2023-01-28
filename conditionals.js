@@ -35,3 +35,33 @@ if (temperature < 0) {
 }
 
 console.log("now you're ready to go outside")
+
+const isCitizen = true;
+const age = 26;
+
+if(isCitizen && age >18) {
+  console.log("You are eligble to vote")
+}
+// The logic should help learners decide which school they should attend. Replace the comment inside the function with your code.
+
+
+const whichSchool  = function (age) {
+  if (age < 13){
+    return "Elementary School";
+  } else if (age >= 13 && age < 19) {
+    return "Secondary School";
+  } else {
+    return "Lighthouse Labs";
+    }
+}
+
+for (i = 13; i < 18; i++) {
+  (whichSchool(i)).to.be.equal("Secondary School");
+}
+
+console.log("I am 35. Which school should I go to?");
+whichSchool(35);
+console.log("I am 8. Which school should I go to?");
+whichSchool(8);
+console.log("I am 14. Which school should I go to?");
+whichSchool(14);

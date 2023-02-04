@@ -269,4 +269,4 @@ emotions("happy", function myFunc(num) {
   }
   sound = sound + "!";
   return sound;
-})'
+})
